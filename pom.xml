@@ -576,16 +576,11 @@
             <version>2.4.0-b180830.0438</version>
         </dependency>
     </dependencies>
-
     <distributionManagement>
-        <repository>
-            <id>third-party-forks</id>
-            <url>http://10.198.126.224:8081/repository/third-party-forks</url>
-        </repository>
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/octocat/hello-world</url>
+            <url>https://maven.pkg.github.com/octocat/hello-world</url>            
         </repository>
     </distributionManagement>
     <profiles>
