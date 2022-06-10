@@ -48,9 +48,6 @@ jobs:
       run: |
         set -o xtrace
         mvn -B clean test -PJava${{ matrix.java_version }}
-    - uses: actions/setup-java@v3
-      with:
-        java-version: ${{ matrix.java_version }}
     - name: Publish package
       run: |
         set -o xtrace
