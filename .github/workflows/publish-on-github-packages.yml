@@ -31,7 +31,7 @@ jobs:
           mvn -B clean license:check-file-header -Dlicence-check.failOnMissingHeader=true
     
   BuildAndTest:
-    name: Build and Test with java ${{ matrix.java_version }}
+    name: Build and Test with java 8
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
